@@ -24,7 +24,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   textSize(15);
   angleMode(DEGREES);
-  dSlider = createSlider(0,5,0);
+  dSlider = createSlider(1,7,1);
   dSlider.position(50, 100);
   dSlider.changed(resetAnimation); 
 
